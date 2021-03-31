@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using core_issue.model;
 using core_issue.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace core_issue.Controllers
 {
+    [Authorize]
+    [ApiController]
     [Route("api/v1/[controller]")]  
     public class PersonController : ControllerBase
     {

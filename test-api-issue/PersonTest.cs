@@ -7,7 +7,7 @@ using Xunit;
 
 namespace test_api_issue
 {
-    public class UnitTest1
+    public class PersonTest
     {
 
         [Fact]

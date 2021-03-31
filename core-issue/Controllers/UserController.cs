@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using core_issue.model;
 using core_issue.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace core_issue.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class UserController : ControllerBase
