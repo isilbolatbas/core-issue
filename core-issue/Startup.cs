@@ -76,7 +76,7 @@ namespace core_issue
                     Scheme = "Bearer",  
                     BearerFormat = "JWT",  
                     In = ParameterLocation.Header,  
-                    Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\"",  
+                    Description = "Önce kayıt apisinden kayıt olalım. Daha sonra login apisi ile token elde edelim. En son Bearer yazıp boşluk bırakıp tokenı girerek auth edilir.",  
                 }); 
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement  
                 {  

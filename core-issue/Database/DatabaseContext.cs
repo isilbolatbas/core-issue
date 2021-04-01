@@ -16,6 +16,7 @@ namespace core_issue.Database
         protected override void OnModelCreating(ModelBuilder builder)  
         {  
             base.OnModelCreating(builder); 
+            
             //Rename Identity tables to lowercase
             foreach (var entity in builder.Model.GetEntityTypes())
             {

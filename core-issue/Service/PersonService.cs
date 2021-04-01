@@ -41,6 +41,8 @@ namespace core_issue.Service
         public Person GetPersons(string id)  
         {  
             return _context.Person.FirstOrDefault(t => t.id == id);  
-        }  
+        }
+
+  
     }
 }
