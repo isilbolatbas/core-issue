@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-api-issue", "test-api-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fluent-test-api", "fluent-test-api\fluent-test-api.csproj", "{A99EAD8C-E8B8-4DEE-96DB-B460D564CBA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-issue", "solid-issue\solid-issue.csproj", "{B6F7DF9C-278E-4C1D-8CC5-63DB6ECA8C25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A99EAD8C-E8B8-4DEE-96DB-B460D564CBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99EAD8C-E8B8-4DEE-96DB-B460D564CBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A99EAD8C-E8B8-4DEE-96DB-B460D564CBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F7DF9C-278E-4C1D-8CC5-63DB6ECA8C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F7DF9C-278E-4C1D-8CC5-63DB6ECA8C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F7DF9C-278E-4C1D-8CC5-63DB6ECA8C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F7DF9C-278E-4C1D-8CC5-63DB6ECA8C25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
